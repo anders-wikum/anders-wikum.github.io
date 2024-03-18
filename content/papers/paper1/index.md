@@ -1,37 +1,36 @@
 ---
-title: "Paper Title 1" 
-date: 2012-06-01
-tags: ["keyword 1","keyword 2","keyword 3"]
-author: "Author Name"
-description: "This paper shows things. Published in Journal Name, 2012." 
-summary: "This paper shows things using various techniques and data." 
+title: "Using simulation to study the last-to-enter service delay announcement in multiserver queues with abandonment" 
+# date: 2019-12-08
+tags: ["Queuing theory","Delay announcement","Simulation"]
+author: "Aditya Shah, Anders Wikum, Jamol Pender"
+description: "" 
 cover:
     image: "paper1.png"
     alt: "Image caption"
     relative: false
 editPost:
-    URL: "https://doi.org/10.1257/aer.102.4.1721"
-    Text: "Journal Name"
+    URL: "https://doi.org/10.1109/WSC40007.2019.9004709"
+    Text: "2019 Winter Simulation Conference"
 
 ---
 
 ---
 
-##### Download
+<!-- ##### Download
 
-+ [Paper](paper1.pdf)
-+ [Online appendix](appendix1.pdf)
-+ [Code and data](https://github.com/pmichaillat/job-rationing)
++ [Paper](paper1.pdf) -->
+<!-- + [Online appendix](appendix1.pdf) -->
+<!-- + [Code and data](https://github.com/pmichaillat/job-rationing) -->
 
 ---
 
 ##### Abstract
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The Last to Enter Service (LES) delay announcement is one of the most commonly used delay announcements in queueing theory because it is quite simple to implement. Recent research has shown that using a convex combination of LES and the conditional mean delay are optimal under the mean squared error and the optimal value depends on the correlation between LES and the virtual waiting time. To this end, we show using simulation that it is important to be careful when using finite queue sizes, especially in a heavy traffic setting. Using simulation we demonstrate that the correlation between LES and the virtual waiting time can differ from heavy traffic results and can therefore have a large impact on the optimal announcement. Finally, we use simulation to assess the value of giving future information in computing correlations with virtual waiting times and show that future information is helpful in some settings.
 
 ---
 
-##### Figure X: Figure caption
+<!-- ##### Figure X: Figure caption
 
 ![](paper1.png)
 
@@ -53,11 +52,11 @@ volume = {Volume},
 year = {Year}}
 ```
 
----
+--- -->
 
-##### Related material
+<!-- ##### Related material
 
 + [Presentation slides](presentation1.pdf)
 + [Dissertation title](https://escholarship.org/uc/item/7jr3m96r) – PhD dissertation on which this paper is based.
-+ [Column title](https://cep.lse.ac.uk/pubs/download/cp365.pdf) – Nontechnical column describing the paper.
++ [Column title](https://cep.lse.ac.uk/pubs/download/cp365.pdf) – Nontechnical column describing the paper. -->
 

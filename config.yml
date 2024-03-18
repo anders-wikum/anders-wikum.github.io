@@ -11,20 +11,16 @@ taxonomies:
 
 menu:
     main:
+        - name: CV
+          url: cv/
+          weight: 1
         - name: Papers
           url: papers/
-          weight: 1
-        - name: Courses
-          url: courses/
           weight: 2
-        - name: Data
-          url: data/
-          weight: 3
 
 params:
-    description: "I am a Professor of Subject at the University of Place. My research covers various topics.
-consequat."
-    author: Name
+    description: "I am a second-year PhD student in the Operations Research group within the Management Science & Engineering department at Stanford Univeristy."
+    author: Anders Wikum
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -47,42 +43,32 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: Prof. Namely Name
-          subtitle: "I am a Professor of Subject at the University of Place. I work on various topics. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          imageTitle: Prof. Name
+          title: Anders Wikum
+          subtitle: "I am a second-year PhD student in [**Management Science & Engineering**](https://msande.stanford.edu) at Stanford University, fortunate to be advised by 
+          [**Ellen Vitercik**.](https://vitercik.github.io) Prior to joining Stanford, I received a B.S. in Operations Research (ORIE) from Cornell University, where I worked with [**David Shmoys**.](https://people.orie.cornell.edu/shmoys/)
+          <br><br> My research interests lie at the intersection of machine learning and algorithm design, particually relating to discrete optimization. My work is supported by a [**NDSEG Fellowship**.](https://ndseg.org)"
+          imageUrl: "calanques_tightrope.jpeg"
+          imageWidth: 175
+          imageHeight: 175
+          imageTitle: Anders Wikum
           buttons:
+            - name: CV
+              url: cv.pdf
             - name: Papers
               url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
+            # - name: Tags
+            #   url: tags/
     socialIcons:
-        - name: CV
-          url: cv.pdf
+        # - name: CV
+        #   url: cv.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
+          url: mailto:wikum@stanford.edu
+        # - name: Location
+        #   url: location/
+        # - name: Google Scholar
+        #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: Twitter
-          url: https://twitter.com/pmichaillat
+          url: https://github.com/anders-wikum
 
     assets:
         disableHLJS: true
@@ -91,7 +77,7 @@ consequat."
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Prof. Name"
+      text: "Anders Wikum"
       icon: favicon.ico
       iconHeight: 18
 
